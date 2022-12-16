@@ -1,0 +1,117 @@
+body{
+    background-color: #ECF0F3;
+    margin: 0;
+    font-family: Arial;
+}
+
+.page-header{
+    position: fixed;
+    background: #ECF0F3;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+}
+
+nav h3{
+    font-family: Ink Free;
+    padding-top: 15px;
+}
+
+nav span{
+    color: #F8013C;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 50px;
+    
+    list-style: none;
+}
+
+nav ul li{
+    padding-left: 150px;
+    color: #0a0a0a;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Ink Free;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    color: #4E4949;
+}
+
+.contact-form{
+    height: 610px;
+    width: 750px;
+    border-radius: 10px;
+    box-shadow: #4E4949 0px 2px 10px;
+    margin: 10px 50px 100px 300px ;
+    
+  }
+
+   
+  .contact-form form{
+    padding: 30px 0 0 30px;
+  }
+
+  .contact-form form label{
+    font-size: 11px;
+    color: #4E4949;
+    padding-bottom: 30px;
+  }
+  #label{
+    margin-left: 290px;
+    padding-top: 150px;
+  }
+
+  .name{
+    height: 38px;
+    width: 325px;
+    margin: 20px 20px 20px 0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .email{
+    margin: 20px 0 20px 0;
+    height: 42px;
+    width: 700px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .subject{
+    margin: 20px 0 20px 0;
+    height: 42px;
+    width: 700px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .message{
+    margin: 20px 0 20px 0;
+    height: 140px;
+    width: 700px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .send-message{
+    margin: 0 0 20px 0;
+    height: 42px;
+    width: 700px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: #4E4949 0px 2px 10px;
+    font-size: 11px;
+    color: #4E4949;
+  }
